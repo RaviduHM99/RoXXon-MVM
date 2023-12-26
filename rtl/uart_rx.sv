@@ -1,4 +1,4 @@
-`timescale 1ns/
+`timescale 1ns/1ps
 
 module uart_rx #(
     parameter CLOCKS_PER_PULSE = 4, //200_000_000/9600
