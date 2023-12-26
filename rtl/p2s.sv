@@ -1,7 +1,7 @@
 `timescale 1ns/1ps
 
 module p2s #(
-    parameter N = 8;
+    parameter N = 8
 ) (
     input clk, rstn,
     input logic [7:0] par_data,
