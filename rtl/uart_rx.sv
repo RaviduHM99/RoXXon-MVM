@@ -49,5 +49,5 @@ module uart_rx #(
                       end else c_clocks <= c_clocks + 1;
             endcase
         end
-
+    end
 endmodule
