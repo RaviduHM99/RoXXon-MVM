@@ -46,7 +46,7 @@ module uart_rx_tb;
 
     //Monitor
     initial forever begin
-        @(posedge clk) if (m_valid) assert (m_data == data) $$display("OK, %b", m_data);
+        @(posedge clk) if (m_valid) assert (m_data == data) $display("OK, %b", m_data);
             else $error("Sent %b, got %b", data, m_data);
     end
 
